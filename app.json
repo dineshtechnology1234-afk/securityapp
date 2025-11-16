@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "GharRaksha",
+    "slug": "ghar-raksha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": ["ios", "android"],
+    "extra": {
+      "backendUrl": "https://securityguard-6dj0.onrender.com"
+    }
+  }
+}
