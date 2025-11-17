@@ -1,9 +1,13 @@
 {
+  "cli": {
+    "version": ">= 3.0.0"
+  },
   "build": {
     "production": {
       "workflow": "managed",
-      "android": { "buildType": "app-bundle" },
-      "ios": {}
+      "android": {
+        "buildType": "apk"
+      }
     }
   }
 }
