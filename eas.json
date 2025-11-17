@@ -1,12 +1,11 @@
 {
-  "cli": {
-    "version": ">= 3.0.0"
-  },
   "build": {
     "production": {
-      "workflow": "managed",
       "android": {
         "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
       }
     }
   }
